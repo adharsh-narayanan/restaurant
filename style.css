@@ -34,7 +34,7 @@
 /* home */
 .home{
 
-    margin:auto;
+    margin:-20px 0;
     justify-content: center;
     align-items: center;
     display: flex;  
@@ -45,17 +45,14 @@
 }
 
 
-
-
-
-
-
 .logo{
     padding: 20px;
     width: 25%;
 }
 .small-screen{
     width: 110%;
+    display: block
+   
 }
 
 /* About section */
@@ -69,7 +66,7 @@
 }
 .about-content{
     font-family: 'Fasthand', cursive;
-    width: 100%;
+    width: 90%;
     padding: 20px;
     text-align: justify;
     font-size: 25px
@@ -95,7 +92,7 @@
     background-color:#D2E3C8;
     background-size: 30px;
     color:black;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
     
 }
@@ -106,14 +103,14 @@
     align-items: center;
     display: flex;
     background-image: url(./images/pexels-valeria-boltneva-1484516.jpg);
-    background-size: 110%;
+    background-size: 100%;
     padding:20px;
 }
 .menu-row1,.menu-row2{
     padding: 10px;
 }
 .menu-card{
-    padding: 10px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -154,14 +151,21 @@
 
 /* Gallery Section */
 .gallery{
+    display: flex;
     background-color: #B2C8BA;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    
+    
 
 }
 .gallery-image{
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    
 }
 
 /* Feedback Section */
@@ -246,7 +250,7 @@ padding: 20px; }
    .feedback-button,.view-menu{
         width:auto;
     }
-    .logo,.about-image1,.footer-image{
+    .logo,.about-image1,.footer-image,.title{
         display: none;
     }
     .home{
@@ -264,7 +268,3 @@ padding: 20px; }
     }
     
 }
-
-    
-.no-border{
-border: none;}
