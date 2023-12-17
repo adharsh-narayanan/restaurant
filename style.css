@@ -151,14 +151,16 @@
 
 /* Gallery Section */
 .gallery{
-    display: flex;
-    background-color: #B2C8BA;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    
+   
+       background-color: #B2C8BA;
     
 
+}
+.gallery-row1 .gallery-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
 }
 .gallery-image{
     justify-content: center;
@@ -240,11 +242,6 @@ padding: 20px; }
    margin: auto;
  }
 
-
-
-
-
-
 /* Media Query */
 @media(max-width:800px){
    .feedback-button,.view-menu{
@@ -265,6 +262,5 @@ padding: 20px; }
 @media(min-width:800px){
     .small-screen,.about-image2{
         display: none;
-    }
-    
+    }    
 }
