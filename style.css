@@ -99,9 +99,7 @@
 /* menu section */
 .menu{
   margin-top:-10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    
     background-image: url(./images/pexels-valeria-boltneva-1484516.jpg);
     background-size: 100%;
     padding:20px;
@@ -115,23 +113,13 @@
     align-items: center;
     display: flex;
 }
-.view-menu{
-    width: 20%;
-    height: 60px;
-    font-size: 20px;
-    text-align: center; 
-    border: none;
-    border-radius: 8px;
-       
+.view-menu:hover{ 
+   color: #f60404; 
 }
-.view-menu:hover{
+.order_now:hover{
     color:brown;
 }
-.menu-button{
-    justify-content: center;
-    align-items: center;
-    display: flex; 
-}
+
 
 /* contact section */
 .contact{
@@ -199,6 +187,9 @@
 }
 .feedback-button{
     width:100%;
+}
+.feedback-button:hover{
+    color: red;
 }
 .feedback-form{
     background-image: url(./images/modal.jpeg);
