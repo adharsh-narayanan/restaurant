@@ -52,6 +52,7 @@
 .small-screen{
    margin-top:0px;
     width: 100%;
+    padding-right: 20px;
     
    
 }
@@ -65,10 +66,13 @@
     align-items: center;
     display: flex;  
 }
+.about-h1{
+    font-family: 'Inknut Antiqua', serif;
+}
 .about-content{
     font-family: 'Fasthand', cursive;
-    width: 90%;
-    padding: 20px;
+    width: 100%;
+    padding:20px 0 20px 18px;
     text-align: justify;
     font-size: 25px
 }
@@ -90,11 +94,14 @@
 
 }
 .headings{
+    height: 50px;
     background-color:#D2E3C8;
-    background-size: 30px;
+    background-size: 50px;
     color:black;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 500;
+    justify-content: center;
+    align-items: center;
     
 }
 /* menu section */
@@ -102,7 +109,8 @@
   margin-top:-10px;    
     background-image: url(./images/pexels-valeria-boltneva-1484516.jpg);
     background-size: 100%;
-    padding:20px;
+    padding:20px 0 20px 18px;
+    
     
 }
 
@@ -146,11 +154,9 @@
 }
 
 /* Gallery Section */
-.gallery{
-   
- background-color: #B2C8BA;
-    
-       
+.gallery{   
+ background-color: #B2C8BA; 
+ padding:20px 0 20px 18px;
 
 }
 .gallery-row1 .gallery-row2{
@@ -193,7 +199,7 @@
     color: red;
 }
 .feedback-form{
-    background-image: url(./images/modal.jpeg);
+    background-image: url(./images/White-paper-texture-for-Projects.jpg);
     padding: 20px;
 }
 .feedback-modal{
@@ -269,6 +275,8 @@ padding: 20px; }
         width: 10%;
         padding: 50px;
     }
+    .feedback{background-image:url(./images/bg.jpg);}
+    
     
 }
 @media(min-width:700px){
