@@ -25,10 +25,10 @@
   
   .navbar-brand{
     font-family: 'Inknut Antiqua', serif;
-    letter-spacing: 0px;
+    letter-spacing: 3px;
     font-weight: 800;
     margin-left: 50px;
-    color: white;
+    color:black;
   }
   .nav-list{
     padding: 15px;
@@ -46,16 +46,14 @@
   
 }
 
-
 .logo{
     padding: 20px;
     width: 25%;
+    transition:transform 0.3s ease;
 }
 .small-screen{
    margin-top:0px;
-    width: 100%;
-
-    
+    width: 100%; 
    
 }
 
@@ -73,23 +71,19 @@
 }
 .about-content{
     font-family: 'Fasthand', cursive;
-    width: 100%;
-    padding:20px 0 20px 18px;
+    width: 100%;    
     text-align: justify;
     font-size: 25px
 }
 .about-image2 .about-image1{
     width: 100%;
 }
-.about-image1{
-    padding: 0;
-}
+
 /* section div */
 .section-div{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width:100%;
-    background-color:#EBF3E8;
-   
+    background-color:#EBF3E8;   
     text-align: center;
     padding: 20px 0 0 0;
     font-size: 20px;
@@ -112,8 +106,7 @@
   margin-top:-10px;    
     background-image: url(./images/pexels-valeria-boltneva-1484516.jpg);
     background-size: 100%;
-    padding:20px 0 20px 18px;
-    
+    padding:20px 0 20px 19px;   
     
 }
 
@@ -121,20 +114,21 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
-    display: flex;
-    
+    display: flex;    
+    transition: 0.2s;
+}
+.menu-card:hover{
+    transform: scale(1.1);
+    box-s: 0px 2px 3px black;
 }
 
 .view-menu:hover{
     color:brown;
 }
 
-
 /* contact section */
-.contact{
-    
-    margin-bottom: 50px;
-    
+.contact{    
+    margin-bottom: 50px;    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -157,7 +151,7 @@
 /* Gallery Section */
 .gallery{   
  background-color: #B2C8BA; 
- padding:20px 0 20px 18px;
+
 
 }
 .gallery-row1 .gallery-row2{
@@ -166,13 +160,38 @@
     align-items: center;
      padding: 10px; 
 }
-.gallery-image{
+.gallery-image {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 10px;
+    padding: 10px;    
     
 }
+
+.figure {
+	width: 250px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+.figure img{
+    margin: 0%;
+    padding: 0;
+   object-fit: cover;
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+   
+}
+.figure:hover img{
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+
+}
+
 
 
 /* Feedback Section */
@@ -235,7 +254,7 @@ padding: 20px; }
     opacity: 1;
 
 }
-.icons:hover i{
+.icons:hover {
     color: rgb(4, 4, 4);
    opacity: 0.9;
     animation: shake 0.4s;
